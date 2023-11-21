@@ -14,5 +14,6 @@ public class TrangChu extends AppCompatActivity {
         setContentView(R.layout.activity_trang_chu);
         String a = "thuan";
         String b = "moi";
+        String x = "moi";
     }
 }

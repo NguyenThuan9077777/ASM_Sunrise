@@ -13,5 +13,6 @@ public class TrangChu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trang_chu);
         String a = "thuan";
+        String b = "moi";
     }
 }

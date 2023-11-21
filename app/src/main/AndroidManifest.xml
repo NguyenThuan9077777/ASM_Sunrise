@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ASM_Sunrise"
+        tools:targetApi="31">
+        <activity
+            android:name=".TrangChu.ChonChucNang"
+            android:exported="false" />
+        <activity
+            android:name=".CaNhan.TroGiup"
+            android:exported="false" />
+        <activity
+            android:name=".CaNhan.CaiDatBaoMat"
+            android:exported="false" />
+        <activity
+            android:name=".CaNhan.CongTyDaTheoDoi"
+            android:exported="false" />
+        <activity
+            android:name=".CaNhan.ViecLamDaLuu"
+            android:exported="false" />
+        <activity
+            android:name=".CaNhan.ViecLamDaUngTuyen"
+            android:exported="false" />
+        <activity
+            android:name=".CaNhan.Search_ViTriCongViec"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.TaiCV"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.TaoCV"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".ThongBao.ThongBao"
+            android:exported="false" />
+        <activity
+            android:name=".GiaoDienDangNhap.ForgotPass2"
+            android:exported="false" />
+        <activity
+            android:name=".GiaoDienDangNhap.ForgotPass"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu.UngTuyen"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu.ViecLam"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu.GoiYViecLam"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu.searchCongTy"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu.CongTy"
+            android:exported="false" />
+        <activity
+            android:name=".CaNhan.CaNhan"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu.SearchTrangChu"
+            android:exported="false" />
+        <activity
+            android:name=".GiaoDienDangNhap.ChangePass"
+            android:exported="false" />
+        <activity
+            android:name=".GiaoDienDangNhap.Register"
+            android:exported="false" />
+        <activity
+            android:name=".GiaoDienDangNhap.Login"
+            android:exported="false" />
+        <activity
+            android:name=".GiaoDienDangNhap.Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChu.TrangChu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

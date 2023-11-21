@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10sp"
+    android:background="@drawable/button_login"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đánh giá về chúng tôi"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10sp"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/star_white"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/star_white"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/star_white"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/star_white"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/star_white"/>
+    </LinearLayout>
+        <Button
+            android:layout_margin="10sp"
+            android:background="@drawable/button"
+            app:backgroundTint="@null"
+            android:textColor="@color/white"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Gửi"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/trangChu"
+        android:icon="@drawable/ic_home"
+        android:title="Trang chủ"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/proFile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/thongBao"
+        android:icon="@drawable/baseline_notifications_24"
+        android:title="Thông báo"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/caNhan"
+        android:icon="@drawable/baseline_mood_24"
+        android:title="Cá nhân"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrangChu.CongTy">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:layout_marginLeft="110sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cài đặt bảo mật"
+            android:textSize="20sp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_stacked_line_chart_24"
+            android:drawablePadding="20sp"
+            android:text="Trạng thái tìm việc"
+            android:textSize="18sp"/>
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="28sp"
+            android:layout_marginLeft="150sp"
+            android:src="@drawable/baseline_toggle_off_24"/>
+    </LinearLayout>
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#B3DCB5"
+        android:layout_marginTop="10sp"
+        android:text="Bật trạng thái làm việc để nhà tuyển dụng có thể liên hệ với bạn"
+        android:textColor="#938C8C"
+        android:textSize="17sp"/>
+    <LinearLayout
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_stacked_line_chart_24"
+            android:drawablePadding="20sp"
+            android:text="Nhận thông báo"
+            android:textSize="18sp"/>
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="28sp"
+            android:layout_marginLeft="170sp"
+            android:src="@drawable/baseline_toggle_off_24"/>
+    </LinearLayout>
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#B3DCB5"
+        android:layout_marginTop="10sp"
+        android:text="Bật thông báo để nhận thông báo những công việc mới nhất từ các nhà tuyển dụng"
+        android:textColor="#938C8C"
+        android:textSize="17sp"/>
+
+
+
+</LinearLayout>

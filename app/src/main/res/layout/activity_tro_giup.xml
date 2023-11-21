@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrangChu.CongTy">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:layout_marginLeft="130"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trợ giúp"
+            android:textSize="20sp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_margin="10sp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_phone_24"
+            android:drawablePadding="20sp"
+            android:text="Liên hệ đến hotline ngay bên dưới"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0347763274"
+            android:textColor="#F44336"
+            android:layout_marginLeft="45sp"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#B3DCB5"
+        android:orientation="vertical"
+        android:layout_height="60sp">
+        <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Hoặc có thể liên hệ qua email                                                      để được hỗ trợ."
+        android:textColor="#938C8C"
+        android:textSize="17sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="“sunrise@gmail.com”"
+            android:textColor="#F44336"
+            android:layout_marginTop="-60sp"
+            android:layout_marginLeft="240sp"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_star_24"
+            android:drawablePadding="20sp"
+            android:text="Phản hồi và đánh giá"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#B3DCB5"
+        android:layout_marginTop="10sp"
+        android:text="Gửi những phản hồi của bạn đến chúng tôi cảm ơn bạn."
+        android:textColor="#938C8C"
+        android:textSize="17sp"/>
+
+
+
+</LinearLayout>

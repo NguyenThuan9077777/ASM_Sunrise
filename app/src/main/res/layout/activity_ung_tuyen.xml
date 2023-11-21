@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrangChu.UngTuyen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="60sp">
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ứng tuyển"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120sp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:backgroundTint="@null"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/canhan">
+        <LinearLayout
+            android:layout_width="390sp"
+            android:layout_height="70sp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/canhan">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:text="Chọn CV"/>
+                <TextView
+                    android:layout_marginLeft="10sp"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:text="Khuyên dùng"
+                    android:textAlignment="center"
+                    android:background="@drawable/khuyendung"
+                    android:textColor="#4CAF50"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chưa có CV nào"
+                android:textSize="13sp"
+                android:textColor="#F44336"
+                android:layout_marginLeft="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="390sp"
+            android:layout_height="85sp"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:orientation="vertical"
+            android:background="@drawable/canhan">
+            <LinearLayout
+                android:layout_marginTop="-5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="20sp"
+                    android:text="Tải CV từ điện thoại"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="52sp"/>
+            </LinearLayout>
+            <Button
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:text="Tải lên"
+                android:textSize="13sp"
+                android:textColor="#F44336"
+                android:background="@drawable/button_login"
+                app:backgroundTint="@null"
+                android:layout_marginBottom="5sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thư giới thiệu"
+        android:textSize="20sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="20sp"/>
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:layout_width="380sp"
+        android:background="@drawable/canhan"
+        android:layout_height="200sp">
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Viết giới thiệu ngắn gọn về bản thân"/>
+    </LinearLayout>
+
+</LinearLayout>
